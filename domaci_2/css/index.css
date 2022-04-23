@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 140vh;
+  width: 100%;
+}
+body .nav {
+  height: 40px;
+}
+body .nav nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+body .nav nav ul li {
+  margin-top: 10px;
+  list-style: none;
+}
+body .nav nav ul li a {
+  text-decoration: none;
+  font-size: 15pt;
+  padding: 10px;
+  color: darkgray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body .nav nav img {
+  width: 40px;
+  border-radius: 50%;
+}
+body .top_div {
+  background-color: rgb(226, 104, 104);
+  height: 80%;
+  margin-top: 10px;
+}
+body .top_div h1 {
+  text-align: center;
+  padding: 80px;
+}
+body .bottom_div {
+  background-color: rgb(74, 63, 96);
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10%;
+}
+body .bottom_div div {
+  width: 40%;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+body .bottom_div div p {
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+  color: white;
+  font-size: 13pt;
+}
+body .bottom_div .ivica {
+  background-color: rgb(68, 57, 89);
+  border-radius: 50%;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin: 50px;
+}
+body .bottom_div img {
+  width: 60px;
+  height: 60px;
+  margin-left: -1.2rem;
+}
+
+.footer {
+  padding: 5.5em 20%;
+}
+.footer h2 {
+  text-align: center;
+}
+.footer p {
+  text-align: center;
+  font-size: 15pt;
+  padding: 1rem;
+}
+.footer .forma {
+  width: 80%;
+  background-color: gray;
+  padding: 2rem;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8rem;
+}
+.footer input {
+  padding: 15px;
+  width: 49%;
+  height: 50px;
+}
+.footer textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  resize: none;
+}
+
+/*# sourceMappingURL=index.css.map */
